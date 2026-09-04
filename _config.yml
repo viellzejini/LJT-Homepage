@@ -63,12 +63,6 @@ author:
   youtube:
   zhihu:
 
-publication_category:
-  manuscripts:
-    title: "Preprints"
-  conferences:
-    title: "Conference Papers"
-
 teaser:
 breadcrumbs: false
 words_per_minute: 160
@@ -100,7 +94,6 @@ social:
   links:
     - "https://github.com/Vicent0205"
     - "https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate"
-    - "https://x.com/junteng88716710"
 
 analytics:
   provider: "false"
@@ -159,11 +152,6 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-collections:
-  publications:
-    output: true
-    permalink: /:collection/:path/
-
 defaults:
   - scope:
       path: ""
@@ -171,14 +159,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: false
 
 sass:
   sass_dir: _sass
